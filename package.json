@@ -6,6 +6,9 @@
   "dependencies": {
     "prettier": "1.16.4"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "package.json",
     "plugin",
