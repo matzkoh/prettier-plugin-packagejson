@@ -1,5 +1,8 @@
 # Prettier plugin for package.json
 
+[![CircleCI](https://circleci.com/gh/matzkoh/prettier-plugin-packagejson.svg?style=shield)](https://circleci.com/gh/matzkoh/prettier-plugin-packagejson)
+[![Renovate](https://badges.renovateapi.com/github/matzkoh/prettier-plugin-packagejson)](https://renovatebot.com/)
+
 ## Installation
 
 ```bash
