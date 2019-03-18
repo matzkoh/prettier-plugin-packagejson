@@ -1,0 +1,63 @@
+orbs:
+  repo:
+    executors:
+      default:
+        docker:
+          - image: circleci/node:10
+
+    commands:
+      test:
+        steps:
+          - checkout
+          - restore_cache:
+              keys:
+                - &cache_key npm_cache-{{ .Branch }}
+                - npm_cache-
+
+          - run:
+              name: Install Dependencies
+              command: npm ci
+
+          - save_cache:
+              key: *cache_key
+              paths:
+                - ~/.npm
+
+          - run:
+              name: Run Test
+              command: npm test
+
+      deploy:
+        steps:
+          - run:
+              name: Deploy
+              command: npx semantic-release
+
+    jobs:
+      default:
+        executor: default
+        steps:
+          - test
+
+      master:
+        executor: default
+        steps:
+          - test
+          - deploy
+
+version: 2.1
+
+workflows:
+  main:
+    jobs:
+      - repo/default:
+          filters:
+            branches:
+              ignore:
+                - master
+
+      - repo/master:
+          filters:
+            branches:
+              only:
+                - master
