@@ -17,7 +17,6 @@ $ npm i -D prettier prettier-plugin-packagejson
   "singleQuote": true,
   "trailingComma": "all",
 
-  "plugins": ["prettier-plugin-packagejson"],
   "overrides": [
     {
       "files": "package.json",
