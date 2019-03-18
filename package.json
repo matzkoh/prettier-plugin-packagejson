@@ -1,0 +1,18 @@
+{
+  "name": "prettier-plugin-packagejson",
+  "description": "Prettier package.json plugin to make the order of properties nice.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "1.16.4"
+  },
+  "keywords": [
+    "package.json",
+    "plugin",
+    "prettier"
+  ],
+  "main": "lib",
+  "scripts": {
+    "test": "node test"
+  }
+}
