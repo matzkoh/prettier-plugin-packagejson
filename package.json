@@ -4,7 +4,7 @@
   "version": "0.0.0-development",
   "license": "MIT",
   "dependencies": {
-    "prettier": "1.16.4"
+    "prettier": "1.17.0"
   },
   "files": [
     "lib"
