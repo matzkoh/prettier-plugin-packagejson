@@ -1,41 +1,66 @@
 const prettier = require('prettier')
 
-const code = `{
+const input = `{
   "license": "",
-  "author": "",
   "version": "",
-  "description": "",
-  "name": "",
-  "keywords": [
-    "C",
-    "B",
-    "A",
-  ],
-  "dependencies": {
-    "B": "*",
-    "A": "*"
-  },
   "devDependencies": {
     "B": "*",
     "A": "*"
   },
-  "optionalDependencies": {
+  "description": "",
+  "dependencies": {
     "B": "*",
     "A": "*"
+  },
+  "scripts": {
+    "test": "",
+    "posttest": "",
+    "start": "",
+    "pretest": "",
+    "build": "",
+    "postbuild": "",
+    "prebuild": "",
+    "lint": ""
   },
   "peerDependencies": {
     "B": "*",
     "A": "*"
-  }
+  },
+  "author": "",
+  "name": "",
+  "optionalDependencies": {
+    "B": "*",
+    "A": "*"
+  },
+  "keywords": [
+    "C",
+    "B",
+    "A"
+  ]
 }
 `
 
 const expected = `{
   "name": "",
-  "description": "",
   "version": "",
-  "author": "",
+  "description": "",
+  "keywords": [
+    "A",
+    "B",
+    "C"
+  ],
   "license": "",
+  "author": "",
+  "scripts": {
+    "build": "",
+    "lint": "",
+    "postbuild": "",
+    "prebuild": "",
+    "start": "",
+    "pretest": "",
+    "test": "",
+    "posttest": ""
+  },
   "dependencies": {
     "A": "*",
     "B": "*"
@@ -44,26 +69,21 @@ const expected = `{
     "A": "*",
     "B": "*"
   },
-  "keywords": [
-    "A",
-    "B",
-    "C"
-  ],
-  "optionalDependencies": {
+  "peerDependencies": {
     "A": "*",
     "B": "*"
   },
-  "peerDependencies": {
+  "optionalDependencies": {
     "A": "*",
     "B": "*"
   }
 }
 `
 
-const formatted = prettier.format(code, {
-  parser: 'package-json',
+const output = prettier.format(input, {
+  filepath: 'package.json',
   plugins: ['.'],
 })
 
-console.assert(formatted === expected)
+console.assert(output === expected)
 console.log('\033[32mpassed!\033[39m')
