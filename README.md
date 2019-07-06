@@ -1,48 +1,18 @@
-# Prettier plugin for package.json
-
 [![CircleCI](https://circleci.com/gh/matzkoh/prettier-plugin-packagejson.svg?style=shield)](https://circleci.com/gh/matzkoh/prettier-plugin-packagejson)
 [![Renovate](https://badges.renovateapi.com/github/matzkoh/prettier-plugin-packagejson)](https://renovatebot.com/)
+[![npm](https://img.shields.io/npm/v/prettier-plugin-packagejson.svg)](https://www.npmjs.com/package/prettier-plugin-packagejson)
+
+# prettier-plugin-packagejson
+
+This is [Prettier] plugin to make the keys of package.json well sorted order.
+
+Using [sort-package-json].
+
+[Prettier]: https://github.com/prettier/prettier
+[sort-package-json]: https://github.com/keithamus/sort-package-json
 
 ## Installation
 
 ```bash
 $ npm i -D prettier prettier-plugin-packagejson
 ```
-
-`overrides` is required because native json parser takes precedence over this plugin.
-
-```json
-{
-  "semi": false,
-  "singleQuote": true,
-  "trailingComma": "all",
-
-  "overrides": [
-    {
-      "files": "package.json",
-      "options": {
-        "parser": "package-json"
-      }
-    }
-  ]
-}
-```
-
-## Rules
-
-- Primary (ordered to top)
-  1. name
-  2. description
-  3. version
-  4. author
-  5. license
-- Others
-  - Sorted alphabetically
-- Sort children
-  - dependencies
-  - devDependencies
-  - peerDependencies
-  - optionalDependencies
-  - keywords
-
-ToDo: Add more tweaks
