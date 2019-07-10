@@ -92,20 +92,28 @@ const expected = `{
   }
   console.log()
 })
-;['Package.json', 'package.JSON', 'package-lock.json', 'composer.json', 'package.json/composer.json'].forEach(
-  filepath => {
-    const output = prettier.format(input, {
-      filepath,
-      plugins: ['.'],
-    })
-    console.log('Testing', filepath)
-    console.assert(output === input, 'Output does not match input')
-    if (output !== input) {
-      process.exitCode = 1
-    }
-    console.log()
-  },
-)
+;[
+  'Package.json',
+  'package.JSON',
+  'package-lock.json',
+  'composer.json',
+  'package.json/composer.json',
+  'foo.json',
+  'bar.js',
+  undefined,
+].forEach(filepath => {
+  const output = prettier.format(input, {
+    filepath,
+    parser: 'json-stringify',
+    plugins: ['.'],
+  })
+  console.log('Testing', filepath)
+  console.assert(output === input, 'Output does not match input')
+  if (output !== input) {
+    process.exitCode = 1
+  }
+  console.log()
+})
 
 if (process.exitCode) {
   console.log('\033[31mFailed!\033[39m')
