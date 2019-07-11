@@ -25,12 +25,18 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test"
+    "fix": "run-p fix:*",
+    "fix:prettier": "npm run lint:prettier -- --write",
+    "lint": "run-p lint:*",
+    "lint:prettier": "prettier -l \"**/*.{js,json,md,yml}\"",
+    "test": "run-s lint test:*",
+    "test:unit": "node test"
   },
   "dependencies": {
     "sort-package-json": "1.36.0"
   },
   "devDependencies": {
+    "npm-run-all": "4.1.5",
     "prettier": "1.19.1"
   },
   "peerDependencies": {
