@@ -28,7 +28,7 @@
     "test": "node test"
   },
   "dependencies": {
-    "sort-package-json": "1.24.0"
+    "sort-package-json": "1.27.0"
   },
   "devDependencies": {
     "prettier": "1.19.1"
