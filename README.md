@@ -4,9 +4,7 @@
 
 # prettier-plugin-packagejson
 
-This is [Prettier] plugin to make the keys of package.json well sorted order.
-
-Using [sort-package-json].
+A [Prettier] plugin to sort the keys of a `package.json` file using [sort-package-json].
 
 [Prettier]: https://github.com/prettier/prettier
 [sort-package-json]: https://github.com/keithamus/sort-package-json
