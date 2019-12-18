@@ -45,9 +45,9 @@ const expected = `{
   "version": "",
   "description": "",
   "keywords": [
-    "A",
+    "C",
     "B",
-    "C"
+    "A"
   ],
   "license": "",
   "author": "",
