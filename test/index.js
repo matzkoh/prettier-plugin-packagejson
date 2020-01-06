@@ -52,10 +52,10 @@ const expected = `{
   "license": "",
   "author": "",
   "scripts": {
-    "build": "",
-    "lint": "",
-    "postbuild": "",
     "prebuild": "",
+    "build": "",
+    "postbuild": "",
+    "lint": "",
     "start": "",
     "pretest": "",
     "test": "",
