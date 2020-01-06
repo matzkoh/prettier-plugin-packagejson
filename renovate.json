@@ -5,10 +5,9 @@
     ":unpublishSafe",
     ":prNotPending",
     ":automergeMinor",
-    ":automergeBranchMergeCommit"
+    ":automergeBranch"
   ],
   "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true
+    "enabled": true
   }
 }
