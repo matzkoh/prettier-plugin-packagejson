@@ -80,7 +80,7 @@ const expected = `{
 }
 `
 
-;['package.json', 'foo/bar/package.json', 'foo\\bar\\package.json'].forEach(filepath => {
+;['package.json', 'foo/bar/package.json'].forEach(filepath => {
   const output = prettier.format(input, {
     filepath,
     plugins: ['.'],
