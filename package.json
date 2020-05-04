@@ -33,7 +33,7 @@
     "test:unit": "jest"
   },
   "dependencies": {
-    "sort-package-json": "1.42.1"
+    "sort-package-json": "1.42.2"
   },
   "devDependencies": {
     "@types/jest": "25.2.1",
