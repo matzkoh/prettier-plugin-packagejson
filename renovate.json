@@ -1,13 +1,3 @@
 {
-  "extends": [
-    "config:base",
-    ":rebaseStalePrs",
-    ":unpublishSafe",
-    ":prNotPending",
-    ":automergeMinor",
-    ":automergeBranch"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true
-  }
+  "extends": ["github>opt-tech/renovate-config"]
 }
