@@ -1,6 +1,16 @@
-[![CircleCI](https://circleci.com/gh/matzkoh/prettier-plugin-packagejson.svg?style=shield)](https://circleci.com/gh/matzkoh/prettier-plugin-packagejson)
-[![Renovate](https://badges.renovateapi.com/github/matzkoh/prettier-plugin-packagejson)](https://renovatebot.com/)
-[![npm](https://img.shields.io/npm/v/prettier-plugin-packagejson.svg)](https://www.npmjs.com/package/prettier-plugin-packagejson)
+[![npm-badge]][npm]
+[![circleci-badge]][circleci]
+[![renovate-badge]][renovate]
+[![codecov-badge]][codecov]
+
+[npm-badge]: https://img.shields.io/npm/v/prettier-plugin-packagejson.svg
+[npm]: https://www.npmjs.com/package/prettier-plugin-packagejson
+[circleci-badge]: https://circleci.com/gh/matzkoh/prettier-plugin-packagejson.svg?style=shield
+[circleci]: https://circleci.com/gh/matzkoh/prettier-plugin-packagejson
+[renovate-badge]: https://badges.renovateapi.com/github/matzkoh/prettier-plugin-packagejson
+[renovate]: https://renovatebot.com/
+[codecov-badge]: https://codecov.io/gh/matzkoh/prettier-plugin-packagejson/branch/master/graph/badge.svg
+[codecov]: https://codecov.io/gh/matzkoh/prettier-plugin-packagejson
 
 # prettier-plugin-packagejson
 
