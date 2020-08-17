@@ -7,14 +7,7 @@
     "plugin",
     "prettier"
   ],
-  "homepage": "https://github.com/matzkoh/prettier-plugin-packagejson#readme",
-  "bugs": {
-    "url": "https://github.com/matzkoh/prettier-plugin-packagejson/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matzkoh/prettier-plugin-packagejson.git"
-  },
+  "repository": "github:matzkoh/prettier-plugin-packagejson",
   "license": "MIT",
   "main": "lib",
   "directories": {
@@ -28,7 +21,7 @@
     "fix": "run-p fix:*",
     "fix:prettier": "npm run lint:prettier -- --write",
     "lint": "run-p lint:*",
-    "lint:prettier": "prettier -l \"**/*.{js,json,md,yml}\"",
+    "lint:prettier": "prettier -l \"**/*.{js,json,md,yaml,yml}\"",
     "test": "run-s lint test:*",
     "test:unit": "jest"
   },
@@ -36,7 +29,6 @@
     "sort-package-json": "1.44.0"
   },
   "devDependencies": {
-    "@types/jest": "26.0.10",
     "jest": "26.4.0",
     "npm-run-all": "4.1.5",
     "prettier": "2.0.5"
