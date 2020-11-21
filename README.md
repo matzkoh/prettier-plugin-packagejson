@@ -7,7 +7,7 @@
 [npm]: https://www.npmjs.com/package/prettier-plugin-packagejson
 [circleci-badge]: https://circleci.com/gh/matzkoh/prettier-plugin-packagejson.svg?style=shield
 [circleci]: https://circleci.com/gh/matzkoh/prettier-plugin-packagejson
-[renovate-badge]: https://badges.renovateapi.com/github/matzkoh/prettier-plugin-packagejson
+[renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen.svg
 [renovate]: https://renovatebot.com/
 [codecov-badge]: https://codecov.io/gh/matzkoh/prettier-plugin-packagejson/branch/master/graph/badge.svg
 [codecov]: https://codecov.io/gh/matzkoh/prettier-plugin-packagejson
