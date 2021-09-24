@@ -13,15 +13,15 @@ exports[`inferred parser should format: foo/bar/package.json 1`] = `
   \\"license\\": \\"\\",
   \\"author\\": \\"\\",
   \\"scripts\\": {
-    \\"pretest\\": \\"\\",
-    \\"test\\": \\"\\",
-    \\"posttest\\": \\"\\",
-    \\"start\\": \\"\\",
     \\"prebuild\\": \\"\\",
     \\"build\\": \\"\\",
     \\"postbuild\\": \\"\\",
+    \\"dev\\": \\"\\",
     \\"lint\\": \\"\\",
-    \\"dev\\": \\"\\"
+    \\"start\\": \\"\\",
+    \\"pretest\\": \\"\\",
+    \\"test\\": \\"\\",
+    \\"posttest\\": \\"\\"
   },
   \\"dependencies\\": {
     \\"A\\": \\"*\\",
@@ -56,15 +56,15 @@ exports[`inferred parser should format: package.json 1`] = `
   \\"license\\": \\"\\",
   \\"author\\": \\"\\",
   \\"scripts\\": {
-    \\"pretest\\": \\"\\",
-    \\"test\\": \\"\\",
-    \\"posttest\\": \\"\\",
-    \\"start\\": \\"\\",
     \\"prebuild\\": \\"\\",
     \\"build\\": \\"\\",
     \\"postbuild\\": \\"\\",
+    \\"dev\\": \\"\\",
     \\"lint\\": \\"\\",
-    \\"dev\\": \\"\\"
+    \\"start\\": \\"\\",
+    \\"pretest\\": \\"\\",
+    \\"test\\": \\"\\",
+    \\"posttest\\": \\"\\"
   },
   \\"dependencies\\": {
     \\"A\\": \\"*\\",
@@ -353,15 +353,15 @@ exports[`json-stringify parser should format: foo/bar/package.json 1`] = `
   \\"license\\": \\"\\",
   \\"author\\": \\"\\",
   \\"scripts\\": {
-    \\"pretest\\": \\"\\",
-    \\"test\\": \\"\\",
-    \\"posttest\\": \\"\\",
-    \\"start\\": \\"\\",
     \\"prebuild\\": \\"\\",
     \\"build\\": \\"\\",
     \\"postbuild\\": \\"\\",
+    \\"dev\\": \\"\\",
     \\"lint\\": \\"\\",
-    \\"dev\\": \\"\\"
+    \\"start\\": \\"\\",
+    \\"pretest\\": \\"\\",
+    \\"test\\": \\"\\",
+    \\"posttest\\": \\"\\"
   },
   \\"dependencies\\": {
     \\"A\\": \\"*\\",
@@ -396,15 +396,15 @@ exports[`json-stringify parser should format: package.json 1`] = `
   \\"license\\": \\"\\",
   \\"author\\": \\"\\",
   \\"scripts\\": {
-    \\"pretest\\": \\"\\",
-    \\"test\\": \\"\\",
-    \\"posttest\\": \\"\\",
-    \\"start\\": \\"\\",
     \\"prebuild\\": \\"\\",
     \\"build\\": \\"\\",
     \\"postbuild\\": \\"\\",
+    \\"dev\\": \\"\\",
     \\"lint\\": \\"\\",
-    \\"dev\\": \\"\\"
+    \\"start\\": \\"\\",
+    \\"pretest\\": \\"\\",
+    \\"test\\": \\"\\",
+    \\"posttest\\": \\"\\"
   },
   \\"dependencies\\": {
     \\"A\\": \\"*\\",
