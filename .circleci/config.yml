@@ -5,7 +5,9 @@ orbs:
 
 jobs:
   deploy:
-    executor: node/default
+    executor:
+      name: node/default
+      tag: &node-ver '16.10'
     steps:
       - checkout
       - run: npx semantic-release
@@ -14,6 +16,7 @@ workflows:
   test_and_deploy:
     jobs:
       - node/test:
+          version: *node-ver
           run-command: ci:test
       - deploy:
           requires:
