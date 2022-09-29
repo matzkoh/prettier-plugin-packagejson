@@ -23,6 +23,6 @@ A [Prettier] plugin to sort the keys of a `package.json` file using [sort-packag
 
 ## Installation
 
-```bash
+```sh
 npm i -D prettier prettier-plugin-packagejson
 ```
