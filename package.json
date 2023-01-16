@@ -26,7 +26,8 @@
     "test:unit": "jest"
   },
   "dependencies": {
-    "sort-package-json": "1.57.0"
+    "sort-package-json": "2.1.0",
+    "synckit": "0.8.4"
   },
   "devDependencies": {
     "jest": "29.3.1",
