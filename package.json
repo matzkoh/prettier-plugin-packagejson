@@ -22,7 +22,7 @@
     "fix": "run-p fix:*",
     "fix:prettier": "npm run lint:prettier -- --write",
     "lint": "run-p lint:*",
-    "lint:prettier": "prettier -l \"**/*.{js,json,md,yaml,yml}\"",
+    "lint:prettier": "prettier -c .",
     "send:coverage": "npx codecov",
     "test": "run-s lint test:*",
     "test:unit": "jest"
