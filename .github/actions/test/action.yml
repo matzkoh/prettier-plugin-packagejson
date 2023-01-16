@@ -1,0 +1,19 @@
+name: setup & test
+
+description: setup & test
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v3
+      with:
+        node-version-file: .node-version
+        cache: 'npm'
+
+    - shell: bash
+      run: npm ci
+
+    - shell: bash
+      run: npm test
+
+    - uses: codecov/codecov-action@v3

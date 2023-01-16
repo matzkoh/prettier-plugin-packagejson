@@ -18,12 +18,10 @@
     "!lib/**/*.test.js"
   ],
   "scripts": {
-    "ci:test": "run-s test send:coverage",
     "fix": "run-p fix:*",
     "fix:prettier": "npm run lint:prettier -- --write",
     "lint": "run-p lint:*",
-    "lint:prettier": "prettier -l \"**/*.{js,json,md,yaml,yml}\"",
-    "send:coverage": "npx codecov",
+    "lint:prettier": "prettier -c .",
     "test": "run-s lint test:*",
     "test:unit": "jest"
   },
