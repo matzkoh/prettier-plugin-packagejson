@@ -1,14 +1,14 @@
 [![npm-badge]][npm]
 [![downloads-badge]][npm]
-[![circleci-badge]][circleci]
+[![actions-badge]][actions]
 [![renovate-badge]][renovate]
 [![codecov-badge]][codecov]
 
 [npm-badge]: https://img.shields.io/npm/v/prettier-plugin-packagejson
 [npm]: https://www.npmjs.com/package/prettier-plugin-packagejson
 [downloads-badge]: https://img.shields.io/npm/dw/prettier-plugin-packagejson?color=blue
-[circleci-badge]: https://circleci.com/gh/matzkoh/prettier-plugin-packagejson.svg?style=shield
-[circleci]: https://circleci.com/gh/matzkoh/prettier-plugin-packagejson
+[actions-badge]: https://github.com/matzkoh/prettier-plugin-packagejson/actions/workflows/release.yml/badge.svg
+[actions]: https://github.com/matzkoh/prettier-plugin-packagejson/actions/workflows/release.yml
 [renovate-badge]: https://img.shields.io/badge/renovate-enabled-brightgreen
 [renovate]: https://renovatebot.com/
 [codecov-badge]: https://codecov.io/gh/matzkoh/prettier-plugin-packagejson/branch/master/graph/badge.svg
