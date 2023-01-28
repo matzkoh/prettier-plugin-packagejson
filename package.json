@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "sort-package-json": "2.1.0",
-    "synckit": "0.8.4"
+    "synckit": "0.8.5"
   },
   "devDependencies": {
     "jest": "29.4.1",
