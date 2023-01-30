@@ -15,6 +15,7 @@
   },
   "files": [
     "lib/**/*.js",
+    "!**/*.snap",
     "!lib/**/*.test.js"
   ],
   "scripts": {
