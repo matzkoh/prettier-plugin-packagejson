@@ -1,3 +1,9 @@
 {
-  "extends": ["github>matzkoh/renovate-config"]
+  "extends": ["github>matzkoh/renovate-config"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["sort-package-json"],
+      "extends": [":automergeMinor"]
+    }
+  ]
 }
