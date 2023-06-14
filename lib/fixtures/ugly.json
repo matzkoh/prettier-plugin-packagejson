@@ -1,0 +1,35 @@
+{
+  "license": "",
+  "version": "",
+  "devDependencies": {
+    "B": "*",
+    "A": "*"
+  },
+  "description": "",
+  "dependencies": {
+    "B": "*",
+    "A": "*"
+  },
+  "scripts": {
+    "posttest": "",
+    "test": "",
+    "start": "",
+    "pretest": "",
+    "build": "",
+    "postbuild": "",
+    "prebuild": "",
+    "lint": "",
+    "dev": ""
+  },
+  "peerDependencies": {
+    "B": "*",
+    "A": "*"
+  },
+  "author": "",
+  "name": "",
+  "optionalDependencies": {
+    "B": "*",
+    "A": "*"
+  },
+  "keywords": ["C", "B", "A"]
+}
