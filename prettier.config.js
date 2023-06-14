@@ -5,5 +5,5 @@ module.exports = {
   semi: false,
   singleQuote: true,
   trailingComma: 'all',
-  plugins: ['.'],
+  plugins: ['./lib/index.js'],
 }
