@@ -26,3 +26,12 @@ A [Prettier] plugin to sort the keys of a `package.json` file using [sort-packag
 ```sh
 npm i -D prettier prettier-plugin-packagejson
 ```
+
+For prettier v3+ you need to configure
+
+```js
+module.exports = {
+  // add this
+  plugins: ['prettier-plugin-packagejson'],
+}
+```
