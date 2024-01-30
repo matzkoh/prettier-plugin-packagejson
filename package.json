@@ -27,7 +27,7 @@
     "test:unit": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "dependencies": {
-    "sort-package-json": "2.6.0",
+    "sort-package-json": "2.7.0",
     "synckit": "0.9.0"
   },
   "devDependencies": {
