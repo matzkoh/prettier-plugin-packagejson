@@ -1,0 +1,16 @@
+name: node-version
+
+on:
+  pull_request:
+    paths: .node-version
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: /.node-version
+          sparse-checkout-cone-mode: false
+
+      - uses: matzkoh/check-node-version@v1
