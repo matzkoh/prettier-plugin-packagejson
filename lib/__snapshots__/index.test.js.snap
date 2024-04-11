@@ -42,3 +42,46 @@ exports[`format should be correct 1`] = `
 }
 "
 `;
+
+exports[`format should follow custom order 1`] = `
+"{
+  "version": "",
+  "name": "",
+  "description": "",
+  "keywords": [
+    "C",
+    "B",
+    "A"
+  ],
+  "license": "",
+  "author": "",
+  "scripts": {
+    "prebuild": "",
+    "build": "",
+    "postbuild": "",
+    "dev": "",
+    "lint": "",
+    "start": "",
+    "pretest": "",
+    "test": "",
+    "posttest": ""
+  },
+  "dependencies": {
+    "A": "*",
+    "B": "*"
+  },
+  "devDependencies": {
+    "A": "*",
+    "B": "*"
+  },
+  "peerDependencies": {
+    "A": "*",
+    "B": "*"
+  },
+  "optionalDependencies": {
+    "A": "*",
+    "B": "*"
+  }
+}
+"
+`;
