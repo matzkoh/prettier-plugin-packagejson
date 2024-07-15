@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "sort-package-json": "2.10.0",
-    "synckit": "0.9.0"
+    "synckit": "0.9.1"
   },
   "devDependencies": {
     "cross-env": "7.0.3",
