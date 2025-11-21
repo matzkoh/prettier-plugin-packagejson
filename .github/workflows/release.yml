@@ -5,6 +5,9 @@ on:
     branches:
       - master
 
+permissions:
+  id-token: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
