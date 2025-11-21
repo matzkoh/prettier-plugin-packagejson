@@ -31,7 +31,7 @@
     "synckit": "0.11.11"
   },
   "devDependencies": {
-    "cross-env": "7.0.3",
+    "cross-env": "10.1.0",
     "jest": "30.0.5",
     "npm-run-all2": "8.0.4",
     "prettier": "3.6.2"
