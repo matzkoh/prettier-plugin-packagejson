@@ -8,3 +8,12 @@ declare const plugin: {
 }
 
 export = plugin
+
+declare module 'prettier' {
+  interface Options {
+    /**
+     * Custom sort order for `package.json` fields.
+     */
+    packageSortOrder?: string[] | undefined
+  }
+}
