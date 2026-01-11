@@ -1,7 +1,5 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
-
-exports[`format should be correct 1`] = `
-"{
+exports[`format > should be correct 1`] = `
+{
   "name": "",
   "version": "",
   "description": "",
@@ -40,11 +38,11 @@ exports[`format should be correct 1`] = `
     "B": "*"
   }
 }
-"
+
 `;
 
-exports[`format should follow custom order 1`] = `
-"{
+exports[`format > should follow custom order 1`] = `
+{
   "version": "",
   "name": "",
   "description": "",
@@ -83,5 +81,5 @@ exports[`format should follow custom order 1`] = `
     "B": "*"
   }
 }
-"
+
 `;
