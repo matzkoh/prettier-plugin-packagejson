@@ -24,7 +24,7 @@
     "lint": "run-p lint:*",
     "lint:prettier": "prettier -c .",
     "test": "run-s lint test:*",
-    "test:unit": "node --test --experimental-test-coverage"
+    "test:unit": "node --test --experimental-test-coverage --test-reporter=spec --test-reporter-destination=stdout --test-reporter=lcov --test-reporter-destination=lcov.info"
   },
   "dependencies": {
     "sort-package-json": "3.5.0",
