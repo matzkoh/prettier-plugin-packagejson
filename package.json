@@ -10,11 +10,13 @@
   "repository": "github:matzkoh/prettier-plugin-packagejson",
   "license": "MIT",
   "main": "lib/index.cjs",
+  "types": "lib/index.d.cts",
   "directories": {
     "lib": "lib"
   },
   "files": [
     "lib/**/*.js",
+    "lib/index.d.cts",
     "!**/*.snap",
     "!lib/**/*.test.js"
   ],
