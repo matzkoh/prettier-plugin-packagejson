@@ -35,3 +35,20 @@ module.exports = {
   plugins: ['prettier-plugin-packagejson'],
 }
 ```
+
+## Options
+
+### `packageSortOrder`
+
+Custom ordering array for `package.json` fields. This option is passed to [sort-package-json]'s `sortOrder` option.
+
+**Type:** `string[]`
+**Default:** `[]` (uses default sort order from sort-package-json)
+
+Example (`.prettierrc`):
+
+```json
+{
+  "packageSortOrder": ["name", "version", "description", "main"]
+}
+```
