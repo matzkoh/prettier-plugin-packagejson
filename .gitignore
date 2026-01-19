@@ -1,2 +1,3 @@
+.claude/*.local.*
 lcov.info
 node_modules/
