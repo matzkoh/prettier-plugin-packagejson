@@ -1,5 +1,5 @@
 {
-  "extends": ["github>matzkoh/renovate-config"],
+  "extends": ["github>matzkoh/renovate-config:js-lib"],
   "packageRules": [
     {
       "matchPackageNames": ["sort-package-json"],
