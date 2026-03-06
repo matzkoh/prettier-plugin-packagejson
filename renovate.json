@@ -2,6 +2,14 @@
   "extends": ["github>matzkoh/renovate-config:js-lib"],
   "packageRules": [
     {
+      "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "replace"
+    },
+    {
+      "matchPackageNames": ["prettier"],
+      "rangeStrategy": "replace"
+    },
+    {
       "matchPackageNames": ["sort-package-json"],
       "extends": [":automergeMinor"]
     }
