@@ -15,10 +15,8 @@
     "lib": "lib"
   },
   "files": [
-    "lib/**/*.js",
-    "lib/index.d.cts",
-    "!**/*.snap",
-    "!lib/**/*.test.js"
+    "lib/index.cjs",
+    "lib/index.d.cts"
   ],
   "scripts": {
     "fix": "run-p fix:*",
