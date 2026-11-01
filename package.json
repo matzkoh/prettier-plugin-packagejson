@@ -7,7 +7,10 @@
     "plugin",
     "prettier"
   ],
-  "repository": "github:matzkoh/prettier-plugin-packagejson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matzkoh/prettier-plugin-packagejson.git"
+  },
   "license": "MIT",
   "main": "lib/index.cjs",
   "types": "lib/index.d.cts",
