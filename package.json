@@ -33,7 +33,7 @@
     "sort-package-json": "^4.0.0"
   },
   "devDependencies": {
-    "npm-run-all2": "9.0.4",
+    "npm-run-all2": "9.1.0",
     "prettier": "^3.8.0"
   },
   "peerDependencies": {
